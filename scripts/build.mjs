@@ -9,7 +9,7 @@ if (path.dirname(output) !== path.resolve(root) || path.basename(output) !== 'di
 }
 
 // Only these public files are deployed. Original uploads are never copied.
-const files = ['index.html', 'styles.css', 'script.js', 'favicon.svg', 'assets'];
+const files = ['index.html', 'styles.css', 'experience.css', 'script.js', 'favicon.svg', 'assets'];
 await rm(output, { recursive: true, force: true });
 await mkdir(output, { recursive: true });
 for (const name of files) {
