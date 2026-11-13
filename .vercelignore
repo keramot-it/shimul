@@ -1,0 +1,9 @@
+*.pdf
+**/*.pdf
+001.jpeg
+002.jpeg
+.git/
+.env*
+preview*.png
+*.zip
+README.md

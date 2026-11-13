@@ -1,0 +1,13 @@
+{
+  "name": "asaduzzaman-shimul-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The personal portfolio of Asaduzzaman Shimul.",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs"
+  },
+  "engines": { "node": ">=22" }
+}

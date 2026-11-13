@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.vercel/
+*.pdf
+001.jpeg
+002.jpeg
+preview*.png
+*.zip
+.env*
